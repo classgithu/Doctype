@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<style>
+
+ul li:first-child{
+background-color:black; color:red; width:35px; height:33px;
+}
+
+/* class And Id */
+h1 {
+color:red;
+}
+
+#id {
+color:pink;
+}
+
+.class {
+color:blue;
+}
+
+/* child selector */
+div > p{
+color: purple;
+}
+
+div > h2{
+background-color: blue;
+}
+
+/* Pseudo classes */
+div p::first-letter{
+color: red;
+background-color: black;
+font-size: larger;
+}
+
+p::first-line{
+color: green;
+}
+
+ul li:last-child{
+background-color: blue;
+color: white;
+}
+
+ul li:nth-child(2){
+color: purple;
+}
+
+ul li:nth-child(3){
+color: purple;
+}
+
+</style>
+
+<body>
+<!_ _ <h1 class="class">Hello World</h1>
+
+<h1 id="id">here I am using id</h1>
+<h1>Hello1</h1>
+
+<h1>Hello2</h1> 
+
+<ul>
+<li>test1</li>
+<li>test2</li>
+<li>test3</li>
+<li>test4</li>
+<li>test5</li>
+</ul>
+
+<div>
+<p>I am renu. I am working for nilkamal in thane. there I am doing reconciliation of vendor and every entity.</p>
+</div>
+
+<div>
+<h2>Hello Duniya</h2>
+</div>
+
+</body>
+</html>
